@@ -1,5 +1,5 @@
 import { Action } from "@ngrx/store";
-import { Tutorial } from "src/models/tutorial.model";
+import { Tutorial } from "../models/tutorial.model";
 import * as TutorialActions from './../actions/tutorial.actions'
 
 const initialState: Tutorial = {
